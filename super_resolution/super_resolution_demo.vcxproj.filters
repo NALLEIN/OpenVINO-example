@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Program Files (x86)\IntelSWTools\openvino_2020.1.033\inference_engine\demos\super_resolution_demo\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Program Files (x86)\IntelSWTools\openvino_2020.1.033\inference_engine\demos\super_resolution_demo\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E06E80B1-11C5-34E9-A123-CDD6B8058FE2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerEnvironment>PATH=C:\Program Files (x86)\IntelSWTools\openvino_2020.1.033\deployment_tools\inference_engine\bin\intel64\Release;C:\Program Files (x86)\IntelSWTools\openvino_2020.1.033\opencv\bin;%PATH%</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerEnvironment>PATH=C:\Program Files (x86)\IntelSWTools\openvino_2020.1.033\deployment_tools\inference_engine\bin\intel64\Debug;C:\Program Files (x86)\IntelSWTools\openvino_2020.1.033\opencv\bin;%PATH%</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>-i D:\OpenVINO\Models\640x360.png -m D:\OpenVINO\Models\SR_x3\INT8\single-image-super-resolution-1033.xml -d CPU</LocalDebuggerCommandArguments>
+  </PropertyGroup>
+</Project>
